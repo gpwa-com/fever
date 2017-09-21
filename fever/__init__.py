@@ -45,7 +45,7 @@ def _get_next_version(file):
 
 def _get_version(basename):
     """Returns the _get_next_version of a file."""
-    match = re.search(r"\(\d*\)", os.path.basename(basename))
+    match = re.search(r"\(\d*\)", basename)
     if match:
         v = int(match.group(0)
                 .replace('(', '')
