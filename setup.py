@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from fever import __version__
 
 
 with open('README.rst') as f:
@@ -9,7 +10,7 @@ with open('LICENSE') as f:
 
 setup(
     name='fever',
-    version='0.1.0',
+    version=__version__,
     description='Automatic file versioning',
     long_description=readme,
     author='Zachary Luety',

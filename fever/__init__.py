@@ -1,6 +1,8 @@
 import os
 import re
 
+__version__ = '0.1.2'
+
 def version(file):
 	"""Return an versioned name of the file."""
 	# file = /path/file.ext
