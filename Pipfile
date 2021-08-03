@@ -4,6 +4,7 @@ verify_ssl = true
 
 [dev-packages]
 pytest = "*"
+py = ">=1.10.0"
 
 [packages]
 
